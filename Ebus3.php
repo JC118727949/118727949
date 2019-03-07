@@ -11,7 +11,7 @@ session_start()
     
  <body align="center">
           <!-- subheading -->
-          <h1>RECEIPT </h1>
+          <u><center><h1>RECEIPT </h1></center></u>
  
           <?php
           //Echo Session variables that were set on previous page
@@ -34,12 +34,12 @@ session_start()
        
            <br />
            
-           <p>Thank you for purchasing from JC Consulting Services.</p> 
-           <p>We hope to hear from you again.</p>
+           <p>Thank you for purchasing from JC Consulting Services.
+              We hope to hear from you again.</p>
            
            <br />
            
-           <br />
+
            
            <!-- button to Homepage -->
        <a href="Homepage.html"> <img src="SpHome.png" alt"homepage" height="100" width="100"></a>

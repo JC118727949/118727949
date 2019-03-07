@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
     
     
@@ -9,7 +9,7 @@
     <style>.grab {cursor: -webkit-grab; cursor: grab;}</style>
         
 <title>Homepage- James Callanan</title>
-<div style="padding:20px; margin-top:30px; background-image:"SpBack.jpg"; height:2000px; font-size:40px;" align="center">
+<div style="padding:20px; margin-top:30px; background-image:"SpBack.jpg"; height:2000px; font-size:150px;" align="center">
      
      <style>
 .button {
@@ -52,22 +52,25 @@
         <br />
         
         <!-- button to go to Ebusiness page -->
-        <a href = "Ebus1.php"><button class="button">Ebusiness page</button>
+       <a href = "Ebus1.php"><button class="button">Ebusiness page</button>
         
         <br />
         <br />
         
-        <!-- button Linking to GitHub -->
-       <a href = "https://github.com/"><button class="button">GitHub</button>
+         <!-- button to go to my GitHub -->
+       <a href = "Ebus1.php"><button class="button">Link To GitHub</button>
         
         <br />
         <br />
         
-        <!-- button Linking to Heroku -->
-       <a href = "https://dashboard.heroku.com/apps"><button class="button">Heroku</button>
+         <!-- button to go to Heroku -->
+         <a href = "Ebus1.php"><button class="button">Link To My Heroku</button>
         
         <br />
         <br />
+        
+        
+      
         
         
     <div id = "Content">

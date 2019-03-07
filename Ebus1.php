@@ -4,24 +4,40 @@
              <!-- The Title -->
              <title>Select Product</title>
           
-             <!-- refer to JQuery -->
+             <!--JQuery -->
              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           
-              <!-- refer to Javascript -->
+              <!--Javascript -->
               <script type="text/javascript" src="cost_cal.js"></script>
+              
+              <style>
+              .button {
+               background-color:blue;
+               border: none;
+               color: white;
+               padding: 15px 25px;
+               text-align: center;
+               font-size: 20px;
+               cursor: pointer;
+               }
+
+               .button:hover {
+              background-color:lightskyblue;
+              }
+              </style> 
           
  </head>
      
      <body align="center">
      
            <!-- heading -->
-           <h1>Select Product</h1>
+           <u><center><h1>Please Select A Product</h1></center></u>
            
          
            <br />
            
          
-           <!-- posting on to next page -->
+           <!-- Posting on to next page -->
            <form method="POST" action="Ebus2.php">
          
            <!-- Blockchain radio button -->
@@ -135,8 +151,14 @@
         
         <br />
         
+       <a href = "ConsultingOptions.html"><button class="button">Back To Consulting Page</button></a>
+          <br>
+          <br>
+        
         <!-- button to Homepage -->
        <a href="Homepage.html"> <img src="SpHome.png" alt"homepage" height="100" width="100"></a>
+       
+       
         
         <br />
         

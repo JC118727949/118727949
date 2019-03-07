@@ -28,16 +28,16 @@ session_start();
              <!-- The Subheading -->
              
              
-             <h4>Please enter your payment details.</h4>
+             <u><center><h1>Please Enter Your Payment Details</h1></center></u>
         
              
             <br />
             
-            <!-- Proceeding   when all actions are completed -->
+            <!-- Proceeding  when all actions are completed -->
             <form method= "POST" action= "Ebus3.php">
                 
                 <!-- Name Textbox -->
-                <label for="name"> Name</label>
+                <u><label for="name"> Name</label></u>
                 
                 <input type="text" id="name" name="name" maxlength="20">
                 
@@ -45,15 +45,15 @@ session_start();
                 <br />
                 
                 <!-- Mobile Textbox -->
-                <label for "Mobile"> Mobile</label>
+                <u><label for "Mobile"> Mobile</label></u>
                 
                 <input type="text" id="Mobile" name="Mobile" maxlength="10">
                 
                 <br />
                 <br />
                 
-                <!-- pin Textbox -->
-                <label for="user_pin"> PIN</label>
+                <!-- PIN Textbox -->
+                <u><label for="user_pin"> PIN</label></u>
                 
                 <input type="password" id="user_pin" name="Total" placeholder="Card Pin" maxlength="4">
                 
@@ -65,7 +65,7 @@ session_start();
             
             <br />
             
-            <!-- button to go back  and button to validate  -->
+            <!-- Button to go back  and to validate  -->
             <a href="Ebus1.php"><button style="font-size:15px; background-color:silver;">Back</button></a>
             
             <button style="font-size:15px;" onClick="validateDetails()"> Validate </button>
