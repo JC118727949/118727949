@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
     
     
@@ -58,15 +58,10 @@
         <br />
         
          <!-- button to go to my GitHub -->
-       <a href = "Ebus1.php"><button class="button">Link To GitHub</button>
+       <a href = "home.html"><button class="button">Link To GitHub and Heroku</button>
         
         <br />
-        <br />
-        
-         <!-- button to go to Heroku -->
-         <a href = "Ebus1.php"><button class="button">Link To My Heroku</button>
-        
-        <br />
+      
         <br />
         
         
