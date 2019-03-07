@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JC Consulting Services</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:wheat;
+  padding: 40px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:lightskyblue;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<style>
+.button {
+  background-color:blue;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color:lightskyblue;
+}
+</style>
+</head>
+
+
+<body>
+
+
+
+<header>
+    <u><h1>JC Consulting Services</h1></u>
+   <p>Here at JC Consulting Services our aim is to help organisations to work smarter and in turn grow quicker.
+      We help businesses and companies to be more competitive in the markets in which they compete by delivering
+      strategies and implementations from a business and technology view.
+      We help businesses and organisations achieve their objectives, grow and reduce unnecessary costs. </p>
+</header>
+
+<section>
+  <nav>
+   
+      <!--Code for the two buttons-->
+     
+      <a href = "Consulting.html"><button class="button">About Consulting</button></a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <a href ="/Ebus1.php"><button class="button">Products</button></a>
+          
+          <br>
+          <br>
+          <br>
+          <br>
+          <a href = "tiltedpage_scroll_demo.html"><button class="button">Back</button></a>
+          
+      
+  
+  </nav>
+  
+  <article>
+    <h1>Contact Information:</h1>
+          
+    <p><u><strong>Address:</strong></u>55,Bridge Steet,South Main Street,Bandon,Co.Cork</p> 
+    <p><u><strong>Phone:</strong></u>0864885959 </p>
+    <p><u><strong>Email:</strong></u>JCConsulting@gmail.com</p>
+    <p><u><strong>Opening Hours:</strong></u>Mon-Fri 9am-5pm</p>
+  </article>
+</section>
+
+
+
+</body>
+</html>

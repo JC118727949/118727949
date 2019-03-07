@@ -1,0 +1,21 @@
+.mainheading{
+    text-align: center;
+}
+
+#Content
+{
+    position:absolute;
+    background: #effbff;
+    color: #ffffff;
+    font-size: 20px;
+}    
+    
+#Main
+{
+    position:absolute;
+    background: #effbff;
+    color: #554E4D;
+    font-family: verdana;
+    font-size: 20px;
+}    
+
